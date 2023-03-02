@@ -28,6 +28,7 @@
 
 body {
   background: var(--bg-image) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -35,7 +36,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 2.4rem;
 }
@@ -140,11 +142,16 @@ footer {
   top: 50%;
   z-index: 1;
   transform: translatey(-50%);
+
+  animation: toogle-out .3s;
+}
+
+#switch button:hover{
+  outline: 8px solid var(--suface-color);
 }
 
 .light #switch button{
-  right: 0;
-  left: initial;
+  animation: toogle-in .3s forwards;
 }
 
 #switch span {
@@ -157,4 +164,30 @@ footer {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
+}
+
+@keyframes toogle-in {
+  from{
+    left: 0;
+  }
+  to{
+    left: 50%;
+  }
+}
+@keyframes toogle-out {
+  from{
+    left: 50%;
+  }
+  to{
+    left: 0;
+  }
+}
+
+@media (min-width: 700px) {
+  :root{
+    --bg-image: url("../assets/bg.jpg");
+  }
+  .light{
+    --bg-image: url("../assets/bg-light.jpg");
+  }
 }
