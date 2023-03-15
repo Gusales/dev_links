@@ -26,16 +26,14 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-  <img alt="License" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50px" >
-  <img alt="License" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="50px" >
-  <img alt="License" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50px" >
-  <img alt="License" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="50px" >
-  <img alt="License" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="50px" >
-  <img alt="License" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="50px" >
-<!-- - HTML e CSS
-- JavaScript
-- Git e Github
-- Figma -->
+<div style="displaY: inline_block">
+  <img alt="html5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50px" >
+  <img alt="css3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="50px" >
+  <img alt="javascript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50px" >
+  <img alt="git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="50px" >
+  <img alt="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="50px" >
+  <img alt="figma" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="50px" >
+</div> <br />
 
 ## 💻 Projeto
 
